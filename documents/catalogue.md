@@ -20,3 +20,6 @@
 
 # relations entre objets
 - élève de
+- formé à
+- membre de 
+- 
