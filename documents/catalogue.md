@@ -5,7 +5,7 @@
 - année de naissance
 - genre
 - nationalité
-- famille ?organisation?
+- famille 
 - langues parlées
 - domaine d'étude
 
