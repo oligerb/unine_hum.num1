@@ -1,30 +1,13 @@
-Person
-Tout être humain.
+# Commentaire du modèle conceptuel
 
-Propriétés
-Nom standard, notice, le genre, éventuellement la date de mort. Il s'agit d'une classe objet (persistent item)
+PERSON représente les individus (ici, linguistes). Contient nom, nationalité, genre, langue, field of study et la date de mort.
+Elle se situe au centre de mon modèle car plusieurs relations partent d'elle ou y reviennent. 
 
-Occupation
-Un métier ou tout autre type d'occupation Il s'agit d'une classe objet (persistent item)
+ORGANISATION représente les institutions (ici principalement des universités). Elle contient un nom et une définition. Elle est liée aux personnes par la relation member of, qui permet de modéliser l'appartenance institutionnelle. (dans mon cas regroupe formation et enseignement)
 
-Propriétés
-Nom standard, notice
+BIRTH représente la naissance des personne. Elle contient la date de naissance ainsi que le lieu de naissance.
 
-Relations
-Une relation réfléxive de spécialisation, termes plus génériques associés à des termes plus précis. Par exemple 'épicier' spécialise le terme de 'négociant'.
+RELATION MEMBERSHIP relie une personne à une organisation. Elle permet de modéliser l'appartenance institutionnelle : une personne peut être membre de plusieurs organisations et une organisation peut accueillir plusieurs personnes. (relation n-n, ce qui justifie l'existance d'une table membership).
 
-Pursuit
-Le fait d'avoir telle occupation ou activité durant telle période Il s'agit d'une classe temporalité (temporal entity)
+RELATION BIRTH relie une personne à un lieu de naissance et une date de naissance. Cela permet de décrire l'origine géographique et temporelle de chaque individu.
 
-Exemple: "Kepler was a mathematics teacher at a seminary school in Graz" (Wikipedia)
-
-Relations
-Une Pursuit peut comprend une et une seule personne, une et une seule occupation (ces deux relations sont nécessaires) et éventuellement on peut associer une (et une seule) organisation auprès de laquelle l'activité est exercée.
-
-Si plusieurs organisation sont concernées par une activité, plusieurs individus de la classe Pursuit seront créées.
-
-Tag
-Un mot clé qui introduit un classement de recherche, généralement lié au questionnement.
-
-Relations
-Relation reflexive (d'un classe vers elle même) qui créer une taxonomie (i.e. une hiérarchie) de mots clés, les plus généraux étant les parents ou ancêtres des plus spécifiques.

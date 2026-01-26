@@ -11,7 +11,7 @@
 
 # organisation
 - nom
-- type
+- definition
 
 # Oeuvres
 - année de publication
@@ -21,5 +21,7 @@
 # relations entre objets
 - élève de
 - formé à
-- membre de 
-- 
+- membre de  
+- cité par
+- né à
+
