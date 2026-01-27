@@ -4,7 +4,7 @@ Bienvenue sur le READ ME de mon projet portant sur les linguistes. Celui-ci a po
 
 Vous trouverez sur cette page tout les liens vers les documents réalisés. 
 
-## préparation
+## Préparation
 - [Problématique](/documents/problematique.md)
 
 - [Catalogue](/documents/catalogue.md)
@@ -15,7 +15,7 @@ Vous trouverez sur cette page tout les liens vers les documents réalisés.
 
 - [Modèle conceptuel simplifié](/documents/documentation/modèle_simplifé.drawio)
 
-- [Commentaire du modèle comceptuel](/documents/documentation/modèle_conceptuel_commentaire.md)
+- [Commentaire du modèle conceptuel](/documents/documentation/modèle_conceptuel_commentaire.md)
 
 ## Base de données
 - [Accueil](/documents/accueil.md)

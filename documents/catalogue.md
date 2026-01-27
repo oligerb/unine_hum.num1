@@ -9,7 +9,7 @@
 - langues parlées
 - domaine d'étude
 
-# organisation
+# Organisation
 - nom
 - definition
 
@@ -18,7 +18,7 @@
 - référence bibliographique
 - co-auteurs 
 
-# relations entre objets
+# Relations entre objets
 - élève de
 - formé à
 - membre de  
