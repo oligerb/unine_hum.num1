@@ -15,7 +15,7 @@ Vous trouverez sur cette page tout les liens vers les documents réalisés.
 
 - [Modèle conceptuel simplifié](/documents/documentation/modèle_simplifé.drawio)
 
-- [Commentaire du modèle conceptuel](/documents/documentation/modèle_conceptuel_commentaire.md)
+- [Commentaire du modèle conceptuel](/documents/documentation/modèle-_conceptuel_commentaire.md)
 
 ## Base de données
 - [Accueil](/documents/accueil.md)
