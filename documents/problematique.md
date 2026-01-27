@@ -35,7 +35,7 @@ et `SELECT * FROM occurence_uni`qui permet de voir le nombre d'occurences de cha
 
 Pour ce faire j'ai utilisé les requêtes suivantes:
 
-````CREATE VIEW vue_person_organisation AS
+```` CREATE VIEW vue_person_organisation AS
 SELECT p.name , o. organisation_name
 FROM membership m
 JOIN person p on p.pk_person =m.fk_person 
