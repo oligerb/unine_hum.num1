@@ -3,6 +3,8 @@
 # Personnes
 - nom
 - année de naissance
+- année de décès
+- lieu de naissance
 - genre
 - nationalité
 - famille 
