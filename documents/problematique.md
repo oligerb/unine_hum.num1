@@ -36,19 +36,22 @@ et `SELECT * FROM occurence_uni`qui permet de voir le nombre d'occurences de cha
 # Requêtes
 Pour ce faire j'ai utilisé les requêtes suivantes:
 
-```CREATE VIEW vue_person_organisation AS
+```sql
+CREATE VIEW vue_person_organisation AS
 SELECT p.name , o. organisation_name
 FROM membership m
 JOIN person p on p.pk_person =m.fk_person 
 JOIN organisation o on o.pk_organisation = m.fk_organisation;```
 
-```CREATE VIEW person_birth AS 
+```sql
+CREATE VIEW person_birth AS 
 SELECT p.pk_person, p.name, b.birth_place, b.birth_date 
 FROM Person p 
 JOIN Birth b 
 ON p.pk_person = b.fk_person;```
 
-```CREATE VIEW occurence_uni AS
+```sql
+CREATE VIEW occurence_uni AS
 SELECT o.organisation_name, COUNT(*) AS nb_occurrences 
 FROM membership m 
 JOIN organisation o ON o.pk_organisation = m.fk_organisation 
