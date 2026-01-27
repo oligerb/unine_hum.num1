@@ -22,8 +22,6 @@ Vous trouverez sur cette page tout les liens vers les documents réalisés.
 
 - [Base de données IMPORT](/linguistes_import.db)
 
-- [Accueil](/documents/accueil.md)
-
 - [CSV de la vue Person_organisation](/documents/documentation/person_organisation.csv)
 
 - [CSV des universités et de leur fréquentation](/documents/documentation/occurence_uni.csv)
