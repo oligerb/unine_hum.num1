@@ -13,7 +13,7 @@ Vous trouverez sur cette page tout les liens vers les documents réalisés.
 
 - [Modèle conceptuel complet](/documents/documentation/modèle_olivia.png)
 
-- [Modèle conceptuel simplifié](/documents/documentation/modèle_simplifé.png)
+- [Modèle conceptuel simplifié](/documents/documentation/modèle_simplifié.png)
 
 - [Commentaire du modèle conceptuel](/documents/documentation/modèle-_conceptuel_commentaire.md)
 
