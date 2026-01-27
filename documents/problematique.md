@@ -29,5 +29,27 @@ En adoptant une démarche exploratoire, il s’agit de proposer un modèle du ch
 
 ## SQL
 
-Afin de gagner du temps, j'ai crée deux vues, qui me permettent d'accéder facilement à l'information sans devoir écrire la requête en entier (ou par le bouton "vues"). Il y'a d'abord `SELECT * FROM person_organisation`qui me permet d'avoir toutes les personnes et les organisations dont elles ont été membres. (dans mon cas, ce sont uniquement les écoles/universités)
-et `SELECT * FROM person_birth`qui permet de sortir les personnes, leur lieu de naissance ainsi que la date. 
+Afin de gagner du temps, j'ai crée trois vues, qui me permettent d'accéder facilement à l'information sans devoir écrire la requête en entier (ou par le bouton "vues"). Il y'a d'abord `SELECT * FROM vue_person_organisation`qui me permet d'avoir toutes les personnes et les organisations dont elles ont été membres. (dans mon cas, ce sont uniquement les écoles/universités)
+`SELECT * FROM person_birth`qui permet de sortir les personnes, leur lieu de naissance ainsi que la date. 
+et `SELECT * FROM occurence_uni`qui permet de voir le nombre d'occurences de chaque université.
+
+Pour ce faire j'ai utilisé les requêtes suivantes:
+
+````CREATE VIEW vue_person_organisation AS
+SELECT p.name , o. organisation_name
+FROM membership m
+JOIN person p on p.pk_person =m.fk_person 
+JOIN organisation o on o.pk_organisation = m.fk_organisation;````
+````CREATE VIEW person_birth AS 
+SELECT p.pk_person, p.name, b.birth_place, b.birth_date 
+FROM Person p 
+JOIN Birth b 
+ON p.pk_person = b.fk_person;````
+
+````CREATE VIEW occurence_uni AS
+SELECT o.organisation_name, COUNT(*) AS nb_occurrences 
+FROM membership m 
+JOIN organisation o ON o.pk_organisation = m.fk_organisation 
+GROUP BY o.organisation_name 
+ORDER BY nb_occurrences 
+DESC;````
