@@ -1,8 +1,11 @@
 # Problématique
-Dans le cadre du cours " Humanités numériques 1: Production et gestion des données", j'ai choisi de m'intéresser aux linguistes. Il s'agit donc de proposer un modèle 
 
-En adoptant une démarche exploratoire, il s’agit de proposer un modèle du champ scientifique de la linguistique (en mobilisant les notions de champ, d’habitus et de capital chez Pierre Bourdieu), c’est‑à‑dire une représentation simplifiée de la structure de ce domaine disciplinaire et de son évolution dans le temps. L’objectif est d’analyser les profils socio‑démographiques et les positions intellectuelles des agents, leurs appartenances institutionnelles, ainsi que les réseaux de relations qui se tissent entre chercheurs, écoles de pensée et organisations académiques. Il s’agira également de modéliser les transformations historiques de cette structure, en mettant en évidence les dynamiques de consolidation, de concurrence ou de recomposition des courants linguistiques. Dans une perspective prosopographique, nous collecterons systématiquement les caractéristiques biographiques, institutionnelles et scientifiques des linguistes afin de dégager des profils types, des trajectoires professionnelles et des configurations relationnelles révélatrices du fonctionnement du champ.
+Dans le cadre du cours " Humanités numériques 1: Production et gestion des données", j'ai choisi de m'intéresser aux linguistes. Il s'agit donc de proposer, dans une démarche exploratoire, un modèle permettant de visualiser des listes de presonnes (ici, des linguistes) et d'analyser leur origines, leur appartenances à des institutions/organisations et des relations entre différents individus. 
+Dans une perspective prosopographique, j’adopterai une démarche de collecte systématique des caractéristiques biographiques, institutionnelles et scientifiques des linguistes. 
+L’objectif est de dégager des tendances communes dans les trajectoires et les liens entre linguistes, afin de saisir les logiques qui structurent leur milieu professionnel.
+L’exploitation de ces données biographiques me permettra d’obtenir une vue d’ensemble structurée, à partir de laquelle je pourrai ensuite répondre aux questions de recherche formulées ci‑dessous.
 
+ 
 ## Questions de recherche
 
 - Est-ce que les universités fréquantées impaquent-elles la notoriété des linguistes ?
